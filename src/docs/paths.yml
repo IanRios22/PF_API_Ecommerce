@@ -236,7 +236,7 @@ paths:
     post:
       tags:
         - products
-      summary: Post de nuevo producto en base de datos
+      summary: Creando un nuevo carrito solo para Usuarios
       requestBody:
         content:
           application/json:
