@@ -17,5 +17,5 @@ export const info = {
             },
         ],
     },
-    apis: [".src/docs/*.yml"],
+    apis: ["./docs/*.yml"],
 }
