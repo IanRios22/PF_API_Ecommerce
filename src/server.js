@@ -24,7 +24,6 @@ app.use(cors({ credentials: true }));
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(spects));
 
 app.use(session(mongoStoreOptions));
-
 app.use(passport.initialize());
 app.use(passport.session());
 
