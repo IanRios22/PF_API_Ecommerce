@@ -12,7 +12,7 @@ export const info = {
                 description: "Development local server"
             },
             {
-                url: "https://api-ecommerce-0qu1.onrender.com",
+                url: "https://api-ecommerce-beta-dev-qkxd.2.us-1.fl0.io",
                 description: "Production server"
             },
         ],
