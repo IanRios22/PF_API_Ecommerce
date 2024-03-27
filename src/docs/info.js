@@ -9,7 +9,12 @@ export const info = {
         servers: [
             {
                 url: "http://localhost:3000",
-            }
+                description: "Development local server"
+            },
+            {
+                url: "https://api-ecommerce-0qu1.onrender.com",
+                description: "Production server"
+            },
         ],
     },
     apis: ["./src/docs/*.yml"],
