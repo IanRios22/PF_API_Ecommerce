@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node .",
     "dev": "nodemon .",
-    "test:win": "set NODE_OPTIONS=--experimental-vm-modules && npx jest /src/test/app/app.test.js",
-    "test:api": "node ./src/test/app/test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",

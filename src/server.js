@@ -27,10 +27,6 @@ app.use(session(mongoStoreOptions));
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.engine('handlebars', handlebars.engine());
-app.set('view engine', 'handlebars');
-app.set('views', __dirname + '/views');
-
 app.use(express.json());
 app.use(cookieParser(config.SECRET_COOKIES))
 app.use(express.urlencoded({ extended: true }));
