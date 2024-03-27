@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "product_name": "Refinado Madera Patatas fritas",
+        "product_description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+        "product_price": "321.00",
+        "product_stock": 92
+    },
+    {
+        "id": 2,
+        "product_name": "Artesanal Ladrillo Bacon",
+        "product_description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "product_price": "754.00",
+        "product_stock": 175
+    },
+    {
+        "id": 3,
+        "product_name": "Genérico Granito Sopa",
+        "product_description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "product_price": "680.00",
+        "product_stock": 144
+    },
+    {
+        "id": 4,
+        "product_name": "Genérico Metal Salchichas",
+        "product_description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "product_price": "567.00",
+        "product_stock": 21
+    },
+    {
+        "id": 5,
+        "product_name": "Fantástico Madera Guantes",
+        "product_description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "product_price": "931.00",
+        "product_stock": 194
+    },
+    {
+        "id": 6,
+        "product_name": "Ergonómico Ladrillo Pescado",
+        "product_description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "product_price": "498.00",
+        "product_stock": 62
+    },
+    {
+        "id": 7,
+        "product_name": "Hecho a mano Ladrillo Pantalones",
+        "product_description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "product_price": "11.00",
+        "product_stock": 151
+    },
+    {
+        "id": 8,
+        "product_name": "Pequeño Ladrillo Queso",
+        "product_description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+        "product_price": "80.00",
+        "product_stock": 102
+    },
+    {
+        "id": 9,
+        "product_name": "Guapa Plástico Guantes",
+        "product_description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "product_price": "263.00",
+        "product_stock": 129
+    }
+]

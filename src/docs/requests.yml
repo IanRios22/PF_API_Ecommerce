@@ -1,0 +1,81 @@
+components:
+  parameters:
+    schemas:
+      NewUser:
+        type: object
+        required:
+          - first_name
+          - last_name
+          - email
+          - password
+        properties:
+          first_name:
+            type: string
+            description: Nombre del Usurario
+          last_name:
+            type: string
+            description: Apellido del usuario
+          email:
+            type: string
+            description: Mail del usuario
+          password:
+            type: string
+            description: Contraseña del usuario
+        example:
+          first_name: felpudo
+          last_name: carrillo
+          email: felpCarrillo@gmail.com
+          password: "1234"
+          age: 44
+      LoginUser:
+        type: object
+        required:
+          - first_name
+          - last_name
+          - email
+          - password
+        properties:
+          email:
+            type: string
+            description: Mail del usuario
+          password:
+            type: string
+            description: Contraseña del usuario
+        example:
+          email: carlitos@gmail.com
+          password: "1234"
+      BodyProduct:
+        type: object
+        required:
+          - title
+          - description
+          - price
+          - stock
+          - category
+        properties:
+          title:
+            type: string
+            description: Nombre del producto
+          description:
+            type: string
+            description: Descripción del producto
+          price:
+            type: number
+            description: Precio del producto
+          stock:
+            type: number
+            description: Cantidad en stock del producto
+          category:
+            type: string
+            description: Categoría del producto
+        example:
+          title: manzanas
+          description: fruta fresca
+          price: 200
+          stock: 10
+          category: frutas
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
