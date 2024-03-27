@@ -8,8 +8,8 @@ export const info = {
         },
         servers: [
             {
-                url: "https://api-ecommerce-0qu1.onrender.com",
-            },
+                url: "http://localhost:3000",
+            }
         ],
     },
     apis: ["./src/docs/*.yml"],
