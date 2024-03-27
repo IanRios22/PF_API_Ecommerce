@@ -55,7 +55,7 @@
 
 <ul>
   <li>Localmente: <code>http://localhost:#puerto/docs</code> (reemplace <code>#puerto</code> con el puerto en el que se está ejecutando el servidor local).</li>
-  <li>En línea: <a href="https://api-ecommerce-0qu1.onrender.com/docs">Documentación en línea</a> (enlace rápido para la versión desplegada).</li>
+  <li>En línea: <a href="https://api-ecommerce-beta-dev-qkxd.2.us-1.fl0.io/docs">Documentación en línea</a> (enlace rápido para la versión desplegada).</li>
 </ul>
 
 <p>¡Disfruta explorando la API de Ecommerce! Si tienes alguna pregunta o problema, no dudes en contactar al equipo de desarrollo.</p>
