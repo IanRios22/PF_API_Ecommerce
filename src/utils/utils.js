@@ -5,11 +5,6 @@ import MongoStore from "connect-mongo";
 import { es, fakerES } from "@faker-js/faker";
 import config from "../config/config.js";
 
-const mongoStoreInstance = MongoStore.create({
-  mongoUrl: config.MONGO_URL,
-  ttl: 10,
-})
-
 export const mongoStoreOptions = {
   secret: config.SESSION_SECRET,
   resave: false,
@@ -17,8 +12,12 @@ export const mongoStoreOptions = {
   cookie: {
     maxAge: 10000
   },
-  store: mongoStoreInstance,
+  store: new MongoStore({
+    mongoUrl: config.MONGO_URL,
+    ttl: 10,
+  }),
 };
+
 export const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export const createHash = (password) => {
